@@ -1,0 +1,42 @@
+{
+  "_说明": "杜甫《登高》四镜配字示例。image 改成你自己的图片路径（相对本文件或绝对路径）；x、y、size 小于等于 1 时按比例理解。side 为 right 时 x 是文字块右边界，为 left 时是左边界。color 取画面里的深色，halo 取留白处的浅色。",
+  "output_dir": "output/登高配字",
+  "font": {
+    "path": "/System/Library/Fonts/Supplemental/Songti.ttc",
+    "poem_index": 3,
+    "label_index": 1
+  },
+  "size": 0.045,
+  "stitch": true,
+  "stitch_name": "登高_四镜拼图.jpg",
+  "frames": [
+    {
+      "image": "images/01.png",
+      "lines": ["风急天高猿啸哀", "渚清沙白鸟飞回"],
+      "label": "首联",
+      "side": "right", "x": 0.96, "y": 0.112,
+      "color": [20, 48, 92], "halo": [200, 226, 246]
+    },
+    {
+      "image": "images/02.png",
+      "lines": ["无边落木萧萧下", "不尽长江滚滚来"],
+      "label": "颔联",
+      "side": "left", "x": 0.038, "y": 0.104,
+      "color": [60, 34, 16], "halo": [248, 232, 206]
+    },
+    {
+      "image": "images/03.png",
+      "lines": ["万里悲秋常作客", "百年多病独登台"],
+      "label": "颈联",
+      "side": "right", "x": 0.96, "y": 0.06,
+      "color": [66, 28, 46], "halo": [242, 228, 230]
+    },
+    {
+      "image": "images/04.png",
+      "lines": ["艰难苦恨繁霜鬓", "潦倒新停浊酒杯"],
+      "label": "尾联",
+      "side": "right", "x": 0.96, "y": 0.082,
+      "color": [26, 32, 66], "halo": [230, 230, 244]
+    }
+  ]
+}
